@@ -1,0 +1,32 @@
+a tentar perceber o que significa as subcoordinate pq preciso delas
+para saber q crop da imagem tenho de ir buscar para o classificar de chars
+
+output:
+[{bbox: [x1, y1, x2, y2], text: ''} -> respeita a uma linha? respeita a uma palavra?
+
+line_images
+y_start,
+y_end,
+x_start = 0;
+x_end = width imagem
+[caracter coordinates]
+
+
+char pixels
+pixels.append([y_start,y_end,x2_start,x2_end])
+
+
+new_img=img[y_start:y_end,x_start:x_end]
+
+
+a propriedade coordinates nao funcionam com as sub_coordinates,
+no entanto é possivel ir das line_images ate aos caracter atraves das sub_coordinates
+entao eu quero que as coordinates sao as mesma do crop da line_image
+
+ideia é passar coordinates para coordenadas das line_images
+
+AMANHA - 28/10/2021
+- IMPORTAR O RECOGNIZER
+- PASSAR AS LETRAS P/ O RECOGNIZER
+- CONCATE DAS LETRAS
+- PINTAR A IMAGEM
